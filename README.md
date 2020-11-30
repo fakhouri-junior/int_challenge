@@ -1,3 +1,11 @@
+# my notes
+* Data pushed to github for simplicity, ideally should be hosted somehwere (gcp, aws etc)
+* dependencies: python 3.6.8, pyspark
+* To Run 
+```
+python main.py
+```
+
 # Paytm Labs Data Engineer Challenge
 Read the instructions below, and complete all the challenges. Your submission must include the code used to solve this challenge.
 
@@ -47,6 +55,7 @@ DJIBOUTI           |2019|90.06114457831325
 No country had consecutive days of tornadoes
 
 3. Which country had the second highest average mean wind speed over the year?
+BERMUDA, 2020, 16.9
 
 ## What are we looking for?
 We want to see how you handle:

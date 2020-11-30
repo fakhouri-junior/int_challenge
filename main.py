@@ -16,7 +16,8 @@ ans1 = get_average_over_year(df_full, desired_column="TEMP", missing_value_defau
 print("First Answer {}".format(ans1))
 
 # Q2
-print("Second Answer {}".format(cons_days_torn_funnel(df_full)))
+ans2 = cons_days_torn_funnel(df_full)
+print("Second Answer {}".format(ans2.show(n=1, truncate=False)))
 
 
 # Q3

@@ -27,7 +27,7 @@ def cons_days_torn_funnel(df):
     ss = df.where(df["is_consecutive"] != 0)
 
     ss = ss.groupBy("COUNTRY_FULL", "consecutive_id").count().orderBy("count", ascending=False)
-    ss.show(n=1, truncate=False)
+    return ss
 
 def get_average_over_year(df, desired_column, missing_value_default, take=1):
     df = df.withColumn('date', convert_date_udf('YEARMODA'))
